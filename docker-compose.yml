@@ -16,7 +16,7 @@ services:
         links:
             - mysql
         ports:
-             "8060:80"
+             "60:80"
         volumes:
             - .:/app
         environment:
